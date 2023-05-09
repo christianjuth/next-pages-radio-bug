@@ -1,8 +1,6 @@
-'use client'
-
 import { useState } from 'react';
 
-function Test() {
+export default function Test() {
   const [selectedTopping, setSelectedTopping] = useState('Medium');
 
   return (
@@ -38,8 +36,4 @@ function Test() {
       <label htmlFor="large">Large</label>
     </div>
   )
-}
-
-export default function Page() {
-  return <Test />;
 }
